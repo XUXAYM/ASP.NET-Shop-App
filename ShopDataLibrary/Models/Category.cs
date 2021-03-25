@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ShopDAL.Models
+namespace ShopDataLibrary.Models
 {
     public class Category
     {

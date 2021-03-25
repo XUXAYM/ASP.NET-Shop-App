@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace ShopDAL.Models
+namespace ShopDataLibrary.Models
 {
     public class Product
     {
@@ -11,8 +11,9 @@ namespace ShopDAL.Models
         /// <summary>
         /// Unique identifier
         /// </summary>
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         [Required]
+        [MaxLength(127)]
         /// <summary>
         /// Name of the product
         /// </summary>
@@ -30,5 +31,9 @@ namespace ShopDAL.Models
         /// Price of the product
         /// </summary>
         public Single Price { get; set; }
+
+        public Product() {
+            Id = Guid.NewGuid();
+        }
     }
 }

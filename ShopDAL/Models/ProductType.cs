@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ShopDAL.Models
 {
-    class ProductType
+    public class ProductType
     {
     }
 }

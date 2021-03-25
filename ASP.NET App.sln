@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET App", "ASP.NET App.csproj", "{A5CA5612-B32F-4060-AB84-15F7D161A0C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopDAL", "ShopDAL\ShopDAL.csproj", "{8565FF6F-7EEB-4930-834D-7A70A3F36BC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopDataLibrary", "ShopDataLibrary\ShopDataLibrary.csproj", "{B3DC8F8C-FE5C-415B-8AB3-12D036DC6E47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{A5CA5612-B32F-4060-AB84-15F7D161A0C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5CA5612-B32F-4060-AB84-15F7D161A0C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5CA5612-B32F-4060-AB84-15F7D161A0C5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8565FF6F-7EEB-4930-834D-7A70A3F36BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8565FF6F-7EEB-4930-834D-7A70A3F36BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8565FF6F-7EEB-4930-834D-7A70A3F36BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8565FF6F-7EEB-4930-834D-7A70A3F36BC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3DC8F8C-FE5C-415B-8AB3-12D036DC6E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3DC8F8C-FE5C-415B-8AB3-12D036DC6E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3DC8F8C-FE5C-415B-8AB3-12D036DC6E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3DC8F8C-FE5C-415B-8AB3-12D036DC6E47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
